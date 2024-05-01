@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Página principal</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		
+		<H2>Produtos</H2>
+		<table border="10" width="100%"> <!-- border define a espessura da borda, width define a largura da tabela-->
+
+			<tr> <!--Linha da tabela-->
+				<th> <!--cabeçalho da tabela (cria as colunas) --> CÓDIGO</th>
+				<th>PRODUTO</th>
+				<th>LINK</th>
+				<th>IMAGEM</th>
+				<th>PREÇO</th>
+			</tr>
+
+			<tr>
+				<td> <!--dados da tabela (cria as colunas) -->001</td>
+				<td>NOTEBOOK DELL INSPIRON 15 3000 | INTEL 11º GERAÇÃO CORE I5-1135G7 4.2 GHz | SISTEMA LINUX | PLACA DE VIDEO IRIS XE COM MEMÓRIA GRÁFICA COMPARTILHADA | 8GB DDR4 | SSD 512 GB | TELA FULL HD 15.6 </td>
+				<TD> <a href="https://www.dell.com/pt-br/shop/notebooks/notebook-inspiron-15-3000/spd/inspiron-15-3511-laptop/i3511u5010w?gacd=9657105-15015-5761040-275878141-0&dgc=ST&cid=71700000099538575&gclid=CjwKCAiA5Y6eBhAbEiwA_2ZWITEr0ZC9aaf3Z2iWHkvQ1BKIcMZk_TSGgk8BkuD8gaPxv4kooo3AIxoCy14QAvD_BwE&gclsrc=aw.ds&nclid=gLRFEfxq6dbg87LLSxJukGNo6tdmwGnsY5b39QUSssnh5olVrpoAEm_JX_LbNtbH">CLIQUE AQUI</a></td>
+				<td> <img src="notebook.png" width="100%"></td>
+				<td>3.500,00</td>
+			</tr>
+
+			<tr>
+				<td>002</td>
+				<td>SMARTPHONE XIAOMI POCO X3 GT 5G | 8GB DE RAM | 128 GB DE ARMAZENAMENTO | CAMERA TRIPLA DE 64 MP + 8MP + 2 MP | TELA 6.6 | BATERIA DE 5.000 MAH | COR: PRETA</td>
+				<td><a href="https://www.amazon.com.br/Smartphone-Xiaomi-128gb-Stargaze-Black/dp/B099QR5XVW">CLIQUE AQUI</a></td>
+				<td><img src="celular.jpg" width="50%"></td>
+				<td>2.380,00</td>
+			</tr>
+
+			<tr>
+				<td rowspan="2">DESCONTO</td> <!-- rowspan = extensão de linha -->
+				<td colspan="4">CUPOM 1 - R$ 10,00</td> <!-- colspan = extensão de coluna da tabela-->
+			</tr>
+
+			<tr>
+				<td colspan="4">CUPOM 2 - R$ 12,00</td> <!-- colspan = extensão de coluna da tabela-->
+			</tr>
+
+			<tr>
+				<td>TOTAL:</td>
+				<td colspan="4">R$ 5.858,00</td>
+			</tr>
+
+		</table>
+
+	</body>
+
+</html>
